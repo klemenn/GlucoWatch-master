@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.fzv.glucowatch" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".DodajanjeAktivnosti"
+            android:label="@string/title_activity_dodajanje_aktivnosti" >
+        </activity>
+        <activity
+            android:name=".DodajanjeObroka"
+            android:label="@string/title_activity_dodajanje_obroka" >
+        </activity>
+        <activity
+            android:name=".dodajanjeMeritve"
+            android:label="@string/title_activity_dodajanje_meritve" >
+        </activity>
+        <activity
+            android:name=".AktivnostVnosZdravil"
+            android:label="@string/title_activity_aktivnost_vnos_zdravil" >
+        </activity>
+        <activity
+            android:name=".dodajanje_podatkov_uporabnika"
+            android:label="@string/title_activity_dodajanje_podatkov_uporabnika" >
+        </activity>
+        <activity
+            android:name=".TestTimePicker"
+            android:label="@string/title_activity_test_time_picker" >
+        </activity>
+        <activity
+            android:name=".TestDatePicker"
+            android:label="@string/title_activity_test_date_picker" >
+        </activity>
+    </application>
+
+</manifest>
